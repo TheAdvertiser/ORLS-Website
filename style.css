@@ -1,0 +1,39 @@
+/* CSS Styles for ORLS Website */
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Slightly grey background */
+}
+
+header {
+    background: linear-gradient(to right, yellow, white);
+    color: silver;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: 2px solid yellow;
+}
+
+main {
+    margin-top: 60px; /* Adjust this value based on header height */
+    padding: 1em;
+    color: silver;
+    background-color: #d3d3d3; /* Slightly grey background */
+    border: 1px solid yellow;
+}
+
+p {
+    margin: 1em 0;
+}
+
+p:last-of-type {
+    margin-top: 1000px;
+}
